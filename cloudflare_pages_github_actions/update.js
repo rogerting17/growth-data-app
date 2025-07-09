@@ -1,5 +1,5 @@
 function updateData() {
-  fetch("https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/dispatches", {
+  fetch("https://api.github.com/repos/rogerting17/growth-data-app/dispatches", {
     method: "POST",
     headers: {
       "Authorization": "Bearer YOUR_GITHUB_PAT",
